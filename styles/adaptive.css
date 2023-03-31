@@ -1,0 +1,86 @@
+@media screen and (max-width: 1440px) {
+    .card {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .questions .container {
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 1220px) {
+    .card .card-text {
+        height: 72px;
+    }
+    .title{
+        font-size: 30px!important;
+        margin-bottom: 30px!important;
+    }
+    .text{
+        margin-bottom: 30px!important;
+    }
+
+}
+
+@media screen and (max-width: 995px) {
+    .card .card-text {
+        height: 85px;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    .questions .col-8 {
+        width: 100%;
+    }
+    .slick-prev.slick-arrow,
+    .slick-next.slick-arrow{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .title{
+        font-size: 20px!important;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .text{
+        font-size: 14px;
+    }
+    .slick-prev.slick-arrow,
+    .slick-next.slick-arrow{
+        width: 28px;
+        height: 28px;
+    }
+    .title{
+        font-size: 20px!important;
+    }
+    .btn-text{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 465px){
+    .title{
+        font-size: 15px!important;
+        margin-bottom: 20px!important;
+    }
+    .text{
+        font-size: 10px;
+        margin-bottom: 20px!important;
+    }
+    .slick-prev {
+        left: 10px;
+    }
+
+    .slick-next {
+        right: 10px;
+    }
+    .title-2{
+        font-size: 20px!important;
+    }
+}

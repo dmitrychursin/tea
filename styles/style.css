@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Arial;
+    src: url("../fonts/ArialMT.ttf");
+}
+
+@font-face {
+    font-family: ArialBold;
+    src: url("../fonts/Arial-BoldMT.ttf");
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #F8F9FA;
+    font-weight: 400;
+}
+
+.slick-prev {
+    left: 16px;
+    z-index: 1;
+}
+
+
+.slick-next {
+    right: 16px;
+    z-index: 1;
+}
+
+.slick-prev.slick-arrow,
+.slick-next.slick-arrow{
+    border: 1px solid #076BFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.slick-prev:before{
+    content: '<';
+    color: transparent;
+    background-image: url("../icon/vector3.png");
+}
+
+.slick-next:before {
+    content: '>';
+    color: transparent;
+    background-image: url("../icon/vector4.png");
+}
+
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.accordion-button::after{
+    background-image: url("../icon/vector2.png");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../icon/vector2.png");
+}
+
+.order-info{
+    display: none;
+}
+
+
+
+
